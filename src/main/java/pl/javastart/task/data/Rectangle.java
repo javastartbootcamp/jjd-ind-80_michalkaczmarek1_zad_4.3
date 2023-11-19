@@ -24,4 +24,8 @@ public class Rectangle {
     public void setB(double b) {
         this.b = b;
     }
+
+    public double calculateRectPerimeter() {
+        return (2 * a) + (2 * b);
+    }
 }
